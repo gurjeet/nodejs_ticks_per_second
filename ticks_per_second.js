@@ -11,7 +11,7 @@ var print = function() {
 	++printIter;
 	var diff = i - prev;
 	avgDiff = ((avgDiff * (printIter-1)) + diff)/printIter;
-	console.log(printIter + '. i: ' + i +', diff: ' + diff + ', avg: ' + avgDiff);
+	//console.log(printIter + '. i: ' + i +', diff: ' + diff + ', avg: ' + avgDiff);
 	prev = i;
 
 	if (printIter === printIterMax) {
